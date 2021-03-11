@@ -10,7 +10,7 @@ const EachTeam = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeams(data.teams))
-    }, [])
+    }, [teamId])
     return (
         <div>
             

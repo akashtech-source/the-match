@@ -1,6 +1,7 @@
 import React from 'react';
 import './TeamDetails.css';
-import players from '../../images/Rectangle 28.png';
+import playersMale from '../../images/Rectangle 28.png';
+import playersFemale from '../../images/female.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
@@ -27,7 +28,9 @@ const TeamDetails = (props) => {
                     <h4>Gender: {strGender}</h4>
                 </div>
                 <div className="half-width">
-                    <img src={players} alt=""/>
+                    {
+                         strGender === 'Male'? <img src={playersMale} alt=""/>:<img src={playersFemale} alt=""/>
+                    }
                 </div>
             </div>
 

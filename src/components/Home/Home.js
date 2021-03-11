@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Team from '../Team/Team';
 import './Home.css';
-import topBanner from '../../images/Image-of-Dubai-Stadium.jpg'
+import topBanner from '../../images/The-stadium_01982368c4b5db6822abe729707173d7.jpeg';
 
 const Home = () => {
     const [teams, setTeams] = useState([]);

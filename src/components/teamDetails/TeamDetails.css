@@ -1,0 +1,39 @@
+.team-container{
+    background-color: rgb(12, 230, 164);
+    margin-left: 150px;
+    margin-right: 80px;
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 10px;
+    width: 1000px;
+}
+.team-info{
+    color: white;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-right: 300px;
+}
+.half-width img{
+    width: 400px;
+    margin-top: 50px;
+}
+.half-width{
+    float: left;
+}
+.logo{
+    text-align: center;
+}
+.description{
+    margin: 60px;
+    font-size: 18px;
+    color: lightgray;
+}
+.body{
+    background-color: rgb(2, 88, 141);
+    height: 1400px;
+}
+.icon-pack{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}

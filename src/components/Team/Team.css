@@ -1,0 +1,21 @@
+.team-name{
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.team-name img{
+    width: 150px;
+}
+.main-button{
+    background-color: rgb(56, 139, 248);
+    width: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid lightgrey;
+}
